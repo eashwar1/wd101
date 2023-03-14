@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: cornflowerblue;   
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    margin-bottom: 11px;
+    font-style:bold;
+}
+.login-box{
+    background-color: coral;
+    width: 405px;
+    height: 391px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border:2px solid purple;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+
+label{
+    height: 30px;
+    margin-left: 6px;
+    margin-right: 82px;
+    margin-bottom: 29px;
+    
+    font-family: 'Lato', sans-serif;;
+}
+input{
+    height: 26px;
+    width: 216px;
+    margin-bottom: 34px;
+    border-radius: 2px;
+}
+#name,#email{
+    margin-left: 30px;
+}
+#dob{
+    margin-left: -21px;
+}
+#check{
+    margin-left: 53px;
+
+}
+#acceptTerms{
+    width: 20px;
+    margin-left: -73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    margin-top: auto;
+    margin-left: 6px;
+    margin-bottom: 7px;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+#tab-1{
+    position: relative;
+    background-color: white;
+    padding: 10px 6px 8px 6px;
+    margin-top: 5px;
+    box-shadow: 0 25px 50px -12px: black;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+}
+#tab-2{
+    margin: auto;
+}
+#tab-3{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+td{
+    border-width: 1px;
+    /* border-left-width: 0px; */
+    border-style: solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+th{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
